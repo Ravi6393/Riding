@@ -1,5 +1,3 @@
-// src/components/LandingPage.js
-
 import React from 'react';
 import horse1 from '../images/horse1.jpg';
 import horse2 from '../images/horse2.jpg';
@@ -10,7 +8,10 @@ import '../style.css';
 const LandingPage = () => {
     return (
         <div className="landing-page">
-            <h1>Welcome to the Horse Ride Booking System</h1>
+            <header className="header">
+                <h1>Welcome to the Horse Ride Booking System</h1>
+                <p>Choose your favorite horse and book a ride!</p>
+            </header>
             <div className="horse-container">
                 <div className="horse">
                     <img src={horse1} alt="Horse 1" />
@@ -35,10 +36,6 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
-
-
-
-
 
 
 

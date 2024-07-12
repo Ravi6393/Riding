@@ -1,5 +1,3 @@
-// src/components/BookingForm.js
-
 import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
@@ -56,15 +54,17 @@ const BookingForm = () => {
                     />
                 </label>
                 <label>
-                    Select Time:
-                    <select name="time" value={formData.time} onChange={handleChange} required>
-                        <option value="">Select a time</option>
-                        {/* Generate time slots from 3 PM to 12 AM */}
-                        {Array.from({ length: 10 }, (_, i) => 15 + i).map(hour => (
-                            <option key={hour} value={`${hour}:00`}>{`${hour}:00`}</option>
-                        ))}
-                    </select>
-                </label>
+                Select Time:
+                <select name="time" value={formData.time} onChange={handleChange} required>
+                    <option value="">Select a time</option>
+                    {/* Generate time slots from 3 PM to 12 AM */}
+                    {Array.from({ length: 10 }, (_, i) => 15 + i).map(hour => (
+                        <option key={hour} value={`${hour}:00`}>
+                            {hour > 12 ? `${hour - 12}:00 PM` : hour === 12 ? `12:00 PM` : `${hour}:00 AM`}
+                        </option>
+                    ))}
+                </select>
+            </label>
                 <label>
                     Name:
                     <input type="text" name="name" value={formData.name} onChange={handleChange} required />

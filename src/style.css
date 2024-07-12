@@ -477,6 +477,555 @@ p {
 .booking-form button:hover {
   background-color: #218838;
 }
+/* BookingForm.css */
+
+/* General Styles */
+.booking-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: #f0f0f0; /* Light background color for contrast */
+}
+
+.booking-form {
+  background: #fff; /* White background for the form */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px; /* Max width for larger screens */
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.booking-form input,
+.booking-form select {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.booking-form button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #4caf50; /* Green background */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.booking-form button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .booking-form {
+      padding: 1rem;
+      max-width: 100%;
+  }
+
+  .booking-form input,
+  .booking-form select {
+      font-size: 0.9rem; /* Slightly smaller font size on mobile */
+  }
+}
+/* style.css */
+
+/* General Styles */
+.landing-page {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light background color */
+  color: #333; /* Dark text color for readability */
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555; /* Slightly lighter text color */
+}
+
+.horse-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Gap between items */
+  justify-content: center;
+}
+
+.horse {
+  background: #fff; /* White background for the horse items */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-width: 220px; /* Max width for larger screens */
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.horse img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.horse h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+/* Button Styling */
+.button-book-now {
+  background-color: #4caf50; /* Green background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-book-now:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header h1 {
+      font-size: 2rem;
+  }
+
+  .header p {
+      font-size: 1rem;
+  }
+
+  .horse-container {
+      gap: 0.5rem;
+  }
+
+  .horse {
+      max-width: 100%; /* Full width for smaller screens */
+  }
+
+  .button-book-now {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+      font-size: 1.5rem;
+  }
+
+  .header p {
+      font-size: 0.9rem;
+  }
+
+  .horse h3 {
+      font-size: 1rem;
+  }
+
+  .button-book-now {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+  }
+}
+/* style.css */
+
+/* General Styles */
+.landing-page {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light background color */
+  color: #333; /* Dark text color for readability */
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555; /* Slightly lighter text color */
+}
+
+/* Horse Container */
+.horse-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Gap between items */
+  justify-content: center;
+}
+
+/* Horse Item */
+.horse {
+  background: #fff; /* White background for the horse items */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-width: 220px; /* Max width for larger screens */
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Horse Image */
+.horse img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Horse Title */
+.horse h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+/* Button Styling */
+.button-book-now {
+  background-color: #4caf50; /* Green background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-book-now:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header h1 {
+      font-size: 2rem;
+  }
+
+  .header p {
+      font-size: 1rem;
+  }
+
+  .horse-container {
+      gap: 0.5rem;
+  }
+
+  .horse {
+      max-width: 100%; /* Full width for smaller screens */
+  }
+
+  .button-book-now {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+      font-size: 1.5rem;
+  }
+
+  .header p {
+      font-size: 0.9rem;
+  }
+
+  .horse h3 {
+      font-size: 1rem;
+  }
+
+  .button-book-now {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+  }
+}
+/* style.css */
+
+/* General Styles */
+.landing-page {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light background color */
+  color: #333; /* Dark text color for readability */
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555; /* Slightly lighter text color */
+}
+
+/* Horse Container */
+.horse-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Gap between items */
+  justify-content: center;
+}
+
+/* Horse Item */
+.horse {
+  background: #fff; /* White background for the horse items */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-width: 100%; /* Full width for smaller screens */
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  flex: 1 1 calc(50% - 1rem); /* 2 items per row with gap consideration */
+}
+
+/* Horse Image */
+.horse img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Limit the height of the images */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+/* Horse Title */
+.horse h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+/* Button Styling */
+.button-book-now {
+  background-color: #4caf50; /* Green background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-book-now:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .horse {
+      flex: 1 1 calc(33.333% - 1rem); /* 3 items per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+      font-size: 2rem;
+  }
+
+  .header p {
+      font-size: 1rem;
+  }
+
+  .horse-container {
+      gap: 0.5rem;
+  }
+
+  .horse {
+      flex: 1 1 calc(50% - 1rem); /* 2 items per row */
+  }
+
+  .button-book-now {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+      font-size: 1.5rem;
+  }
+
+  .header p {
+      font-size: 0.9rem;
+  }
+
+  .horse h3 {
+      font-size: 1rem;
+  }
+
+  .button-book-now {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+  }
+
+  .horse {
+      flex: 1 1 100%; /* 1 item per row */
+  }
+}
 
  
+/* style.css */
+
+/* General Styles */
+.landing-page {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light background color */
+  color: #333; /* Dark text color for readability */
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555; /* Slightly lighter text color */
+}
+
+/* Horse Container */
+.horse-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Gap between items */
+  justify-content: center;
+}
+
+/* Horse Item */
+.horse {
+  background: #fff; /* White background for the horse items */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  flex: 1 1 calc(50% - 1rem); /* 2 items per row with gap consideration */
+  max-width: 300px; /* Limit the maximum width of the horse items */
+}
+
+/* Horse Image */
+.horse img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Limit the height of the images */
+  object-fit: cover; /* Ensure the image covers the area */
+}
+
+/* Horse Title */
+.horse h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+/* Button Styling */
+.button-book-now {
+  background-color: #4caf50; /* Green background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-book-now:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .horse {
+      flex: 1 1 calc(33.333% - 1rem); /* 3 items per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+      font-size: 2rem;
+  }
+
+  .header p {
+      font-size: 1rem;
+  }
+
+  .horse-container {
+      gap: 0.5rem;
+  }
+
+  .horse {
+      flex: 1 1 calc(50% - 1rem); /* 2 items per row */
+  }
+
+  .button-book-now {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+      font-size: 1.5rem;
+  }
+
+  .header p {
+      font-size: 0.9rem;
+  }
+
+  .horse h3 {
+      font-size: 1rem;
+  }
+
+  .button-book-now {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+  }
+
+  .horse {
+      flex: 1 1 100%; /* 1 item per row */
+  }
+}
 
