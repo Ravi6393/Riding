@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Riding/static/css/main.e1611b9e.css",
+    "main.js": "/Riding/static/js/main.7beeee15.js",
+    "static/media/horse1.jpg": "/Riding/static/media/horse1.515fe67bae33c6655e1f.jpg",
+    "static/media/horse3.jpg": "/Riding/static/media/horse3.d088b0ce33f930a16af4.jpg",
+    "static/media/horse2.jpg": "/Riding/static/media/horse2.a5cb0e029c7f2423a406.jpg",
+    "static/media/horse4.jpg": "/Riding/static/media/horse4.b5d544cd2127a5425d01.jpg",
+    "index.html": "/Riding/index.html",
+    "main.e1611b9e.css.map": "/Riding/static/css/main.e1611b9e.css.map",
+    "main.7beeee15.js.map": "/Riding/static/js/main.7beeee15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1611b9e.css",
+    "static/js/main.7beeee15.js"
+  ]
+}
